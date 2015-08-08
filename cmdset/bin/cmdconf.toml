@@ -1,0 +1,14 @@
+[cmdd]
+error_log = true
+access_log = true
+listen_addr = ":9000"
+config_addrs = ["http://127.0.0.1:2379"]
+
+[mongo]
+request_pool_size = 1000
+addr = ["113.56.106.66:27017","113.56.106.66:27018"]
+#lru_percent = 10
+#check_interval = "100s"
+
+[syscmd]
+disk_left_notify = 80

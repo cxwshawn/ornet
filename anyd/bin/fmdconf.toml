@@ -1,0 +1,18 @@
+[ngxfmd]
+error_log = true
+access_log=true
+fastcgi_listen_addr = ":11000"
+http_listen_addr = ":11001"
+#listen_addr = ":11000"
+
+# [files]
+# store_path = "/data/store"
+# upload_type = 2
+
+# [url2name]
+# down_path="/data/tmp"
+# store_path="/data/store"
+
+#[sandbox]
+#lua_filename = "/root/myopensrc/ornet/anyd/src/service/sandbox/examples/test.lua"
+[qianke]
